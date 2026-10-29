@@ -1,0 +1,2 @@
+-keep class com.redpacketalert.service.** { *; }
+-keep class com.redpacketalert.core.** { *; }

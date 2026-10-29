@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">红包提醒</string>
+
+    <string name="action_open">去开启</string>
+    <string name="action_view">查看</string>
+
+    <string name="status_granted">已授予</string>
+    <string name="status_not_granted">未授予</string>
+    <string name="status_battery_ok">已加入电池优化白名单</string>
+    <string name="status_battery_bad">未加入，后台可能被杀</string>
+    <string name="status_wechat_ok">已安装</string>
+    <string name="status_wechat_missing">未检测到微信</string>
+    <string name="status_listener_connected">已连接，正在监听通知</string>
+    <string name="status_listener_disconnected">未连接，请在通知使用权里勾选本应用</string>
+
+    <string name="section_status">权限与状态</string>
+    <string name="label_notification_access">通知使用权</string>
+    <string name="label_overlay">悬浮窗权限</string>
+    <string name="label_battery">电池优化</string>
+    <string name="label_listener">监听服务</string>
+    <string name="label_wechat">微信</string>
+
+    <string name="section_master">总开关</string>
+    <string name="switch_enabled">启用红包强提醒</string>
+    <string name="master_hint_on">正在监听通知，命中关键词后会发出强提醒</string>
+    <string name="master_hint_off">已关闭：不会解析任何通知，也不会有提醒</string>
+
+    <string name="section_channels">提醒方式</string>
+    <string name="switch_sound">声音提醒</string>
+    <string name="switch_alarm_stream">使用闹钟音量通道（静音/勿扰下更响）</string>
+    <string name="switch_vibrate">震动提醒</string>
+    <string name="switch_vibrate_continuous">持续震动直到提醒结束</string>
+    <string name="switch_torch">闪光灯闪烁</string>
+    <string name="switch_overlay">悬浮窗弹窗提醒</string>
+    <string name="switch_screen_on">点亮屏幕</string>
+    <string name="btn_pick_tone">选择铃声</string>
+    <string name="ringtone_default">默认（闹钟铃声）</string>
+    <string name="pick_ringtone">选择红包提醒铃声</string>
+    <string name="label_duration">提醒持续时间</string>
+    <string name="label_duration_value">%1$d 秒</string>
+
+    <string name="section_keywords">关键词</string>
+    <string name="row_keywords">匹配关键词</string>
+    <string name="row_excludes">排除关键词</string>
+    <string name="switch_ignore_ongoing">忽略常驻通知（正在进行中的）</string>
+    <string name="switch_ignore_suspended">忽略被系统静音的通知</string>
+
+    <string name="section_scope">群聊范围</string>
+    <string name="switch_whitelist">只提醒白名单里的会话</string>
+    <string name="row_whitelist">白名单</string>
+    <string name="row_mute">免打扰名单</string>
+    <string name="switch_match_sender">同时按发送者昵称匹配名单</string>
+    <string name="switch_alert_unknown">群名无法识别时仍然提醒（推荐）</string>
+
+    <string name="section_advanced">高级</string>
+    <string name="row_packages">监控的应用包名</string>
+    <string name="label_interval">最小提醒间隔</string>
+    <string name="label_interval_value">%1$d 秒</string>
+    <string name="row_log">事件日志</string>
+    <string name="btn_test">测试提醒</string>
+
+    <string name="editor_keywords">匹配关键词</string>
+    <string name="editor_keywords_hint">输入关键词，如：红包</string>
+    <string name="editor_excludes">排除关键词</string>
+    <string name="editor_excludes_hint">命中即忽略，如：红包封面</string>
+    <string name="editor_whitelist">白名单</string>
+    <string name="editor_whitelist_hint">群名或联系人昵称，如：大学同学群</string>
+    <string name="editor_mute">免打扰名单</string>
+    <string name="editor_mute_hint">这些会话一律不提醒</string>
+    <string name="editor_packages">监控的应用包名</string>
+    <string name="editor_packages_hint">微信为 com.tencent.mm</string>
+    <string name="editor_hint_default">输入后点“添加”</string>
+    <string name="editor_add">添加</string>
+    <string name="editor_reset">恢复默认</string>
+    <string name="editor_clear">清空</string>
+    <string name="editor_empty_input">内容不能为空</string>
+    <string name="editor_duplicated">已经存在了</string>
+    <string name="editor_empty_list">列表为空，点上面的输入框添加</string>
+
+    <string name="log_title">事件日志</string>
+    <string name="log_clear">清空日志</string>
+    <string name="log_alerted">已提醒</string>
+    <string name="log_skipped">未提醒</string>
+    <string name="log_no_text">（没有可读文本）</string>
+    <string name="log_reason_with_keyword">%1$s（关键词：%2$s）</string>
+    <string name="log_empty">暂无记录，收到命中关键词的通知后会出现在这里</string>
+
+    <string name="overlay_title">发现红包</string>
+    <string name="overlay_keyword_format">命中关键词：%1$s</string>
+    <string name="overlay_open">打开微信</string>
+    <string name="overlay_dismiss">我知道了</string>
+
+    <string name="toast_need_notification_access">请先授予“通知使用权”</string>
+    <string name="toast_need_overlay">请先授予“显示在其他应用上层”权限</string>
+    <string name="toast_no_channel">请至少开启一种提醒方式</string>
+    <string name="toast_test_triggered">已触发测试提醒</string>
+    <string name="toast_no_ringtone_picker">系统没有铃声选择器</string>
+    <string name="toast_wechat_missing">没有找到微信</string>
+    <string name="toast_app_not_found">没有找到目标应用</string>
+    <string name="toast_open_failed">打开应用失败</string>
+</resources>
